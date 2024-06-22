@@ -6,9 +6,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use GuzzleHttp\Middleware;
 
-Route::get('/', function () {
-    return view('layouts.index');
-});
+// Route::get('/', function () {
+//     return view('layouts.index');
+// });
 Route::get('/index', function () {
     return view('layouts.index2');
 });
@@ -23,7 +23,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     });
 });
 
-route::get('/home', [FrontController::class, 'index']);
+route::get('/', [FrontController::class, 'index']);
 route::get('/contact', [FrontController::class, 'contact']);
 route::get('/shop', [FrontController::class, 'shop']);
 route::get('/cart', [FrontController::class, 'cart']);
