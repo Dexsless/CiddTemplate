@@ -41,7 +41,6 @@
                         <img src="assets/images/logo1.png" class="mb-4" width="145" alt="">
                         <h4 class="fw-bold">Get Started Now</h4>
                         <p class="mb-0">Enter your credentials to create your account</p>
-
                         <div class="form-body my-4">
                             <form class="row g-3" method='POST' action="{{ route('register') }}">
                                 @csrf
@@ -49,7 +48,6 @@
                                     <label for="inputUsername"  class="form-label">Username</label>
                                     <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name"
                                         value="{{ old('name') }}" required autocomplete="name" autofocus>
-
                                     @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -59,7 +57,6 @@
                                     <label for="inputEmailAddress" class="form-label">Email Address</label>
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email"
                                         value="{{ old('email') }}" required autocomplete="email">
-
                                     @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -71,23 +68,22 @@
                                     <div class="input-group" id="show_hide_password">
                                         <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password"
                                             required autocomplete="new-password">
-
                                         @error('password')
                                         <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
                                         </span>
                                         @enderror
-                                        <a href="javascript:;" class="input-group-text bg-transparent"><i
-                                                class="bi bi-eye-slash-fill"></i></a>
+                                        {{-- <a href="javascript:;" class="input-group-text bg-transparent"><i
+                                                class="bi bi-eye-slash-fill"></i></a> --}}
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <label for="password" class="form-label">Password</label>
+                                    <label for="password-confirm" class="form-label">Password Confirmation</label>
                                     <div class="input-group" id="show_hide_password">
                                         <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required
                                             autocomplete="new-password">
-                                        <a href="javascript:;" class="input-group-text bg-transparent"><i
-                                                class="bi bi-eye-slash-fill"></i></a>
+                                        {{-- <a href="javascript:;" class="input-group-text bg-transparent"><i
+                                                class="bi bi-eye-slash-fill"></i></a> --}}
                                     </div>
                                 </div>
                                 {{-- <div class="col-12">
@@ -114,14 +110,14 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="text-start">
-                                        <p class="mb-0">Already have an account? <a href="auth-basic-login.html">Sign in
+                                        <p class="mb-0">Already have an account? <a href="{{route('login')}}">Sign in
                                                 here</a></p>
                                     </div>
                                 </div>
                             </form>
                         </div>
 
-                        <div class="separator section-padding">
+                        {{-- <div class="separator section-padding">
                             <div class="line"></div>
                             <p class="mb-0 fw-bold">OR</p>
                             <div class="line"></div>
@@ -144,7 +140,7 @@
                                 class="wh-42 d-flex align-items-center justify-content-center rounded-circle bg-grd-royal">
                                 <i class="bi bi-github fs-5 text-white"></i>
                             </a>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>
