@@ -8,7 +8,7 @@
                     <li>
                         <div class="tpcart__item">
                             <div class="tpcart__img">
-                                <img src="user/assets/img/product/home-one/product-1.jpg" alt="">
+                                <img src="{{asset('user/assets/img/product/home-one/product-1.jpg')}}" alt="">
                                 <div class="tpcart__del">
                                     <a href="#"><i class="far fa-times-circle"></i></a>
                                 </div>
@@ -27,7 +27,7 @@
                     <li>
                         <div class="tpcart__item">
                             <div class="tpcart__img">
-                                <img src="user/assets/img/product/home-one/product-3.jpg" alt="">
+                                <img src="{{asset('user/assets/img/product/home-one/product-3.jpg')}}" alt="">
                                 <div class="tpcart__del">
                                     <a href="#"><i class="far fa-times-circle"></i></a>
                                 </div>

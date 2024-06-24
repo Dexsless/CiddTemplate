@@ -30,4 +30,12 @@ class FrontController extends Controller
     {
         return view('user.track');
     }
+    public function about()
+    {
+        return view('user.about');
+    }
+    public function shopdetail()
+    {
+        return view('user.shop-detail');
+    }
 }

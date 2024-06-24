@@ -26,7 +26,9 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
 route::get('/', [FrontController::class, 'index']);
 route::get('/contact', [FrontController::class, 'contact']);
 route::get('/shop', [FrontController::class, 'shop']);
+route::get('/shop-detail', [FrontController::class, 'shopdetail']);
 route::get('/cart', [FrontController::class, 'cart']);
 route::get('/checkout', [FrontController::class, 'checkout']);
 route::get('/track', [FrontController::class, 'track']);
+route::get('/about', [FrontController::class, 'about']);
 

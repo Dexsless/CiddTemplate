@@ -9,19 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="user/assets/img/logo/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('user/assets/img/logo/favicon.png')}}">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="user/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="user/assets/css/animate.css">
-    <link rel="stylesheet" href="user/assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="user/assets/css/slick.css">
-    <link rel="stylesheet" href="user/assets/css/nice-select.css">
-    <link rel="stylesheet" href="user/assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="user/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="user/assets/css/meanmenu.css">
-    <link rel="stylesheet" href="user/assets/css/spacing.css">
-    <link rel="stylesheet" href="user/assets/css/main.css">
+    <link rel="stylesheet" href="{{asset('user/assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/swiper-bundle.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/slick.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/meanmenu.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/spacing.css')}}">
+    <link rel="stylesheet" href="{{asset('user/assets/css/main.css')}}">
 </head>
 
 <body>
@@ -64,22 +64,22 @@
 
 
     <!-- JS here -->
-    <script src="user/assets/js/jquery.js"></script>
-    <script src="user/assets/js/waypoints.js"></script>
-    <script src="user/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="user/assets/js/swiper-bundle.js"></script>
-    <script src="user/assets/js/slick.js"></script>
-    <script src="user/assets/js/magnific-popup.js"></script>
-    <script src="user/assets/js/nice-select.js"></script>
-    <script src="user/assets/js/counterup.js"></script>
-    <script src="user/assets/js/wow.js"></script>
-    <script src="user/assets/js/isotope-pkgd.js"></script>
-    <script src="user/assets/js/imagesloaded-pkgd.js"></script>
-    <script src="user/assets/js/countdown.js"></script>
-    <script src="user/assets/js/ajax-form.js"></script>
-    <script src="user/assets/js/meanmenu.js"></script>
-    <script src="user/assets/js/jquery.knob.js"></script>
-    <script src="user/assets/js/main.js"></script>
+    <script src="{{asset('user/assets/js/jquery.js')}}"></script>
+    <script src="{{asset('user/assets/js/waypoints.js')}}"></script>
+    <script src="{{asset('user/assets/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('user/assets/js/swiper-bundle.js')}}"></script>
+    <script src="{{asset('user/assets/js/slick.js')}}"></script>
+    <script src="{{asset('user/assets/js/magnific-popup.js')}}"></script>
+    <script src="{{asset('user/assets/js/nice-select.js')}}"></script>
+    <script src="{{asset('user/assets/js/counterup.js')}}"></script>
+    <script src="{{asset('user/assets/js/wow.js')}}"></script>
+    <script src="{{asset('user/assets/js/isotope-pkgd.js')}}"></script>
+    <script src="{{asset('user/assets/js/imagesloaded-pkgd.js')}}"></script>
+    <script src="{{asset('user/assets/js/countdown.js')}}"></script>
+    <script src="{{asset('user/assets/js/ajax-form.js')}}"></script>
+    <script src="{{asset('user/assets/js/meanmenu.js')}}"></script>
+    <script src="{{asset('user/assets/js/jquery.knob.js')}}"></script>
+    <script src="{{asset('user/assets/js/main.js')}}"></script>
 </body>
 
 </html>

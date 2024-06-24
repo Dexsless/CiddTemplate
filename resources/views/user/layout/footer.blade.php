@@ -6,7 +6,7 @@
                     <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="footer-widget footer-col-1 mb-40">
                             <div class="footer-logo mb-30">
-                                <a href="index.html"><img src="user/assets/img/logo/logo.png" alt="logo"></a>
+                                <a href="index.html"><img src="{{asset('user/assets/img/logo/logo.png')}}" alt="logo"></a>
                             </div>
                             <div class="footer-content">
                                 <p>Elegant pink origami design three <br> dimensional view and decoration co-exist.
@@ -92,8 +92,8 @@
                                 <p>15% discount on your first purchase</p>
                             </div>
                             <div class="footer-cta__source-thumb">
-                                <a href="#"><img src="user/assets/img/footer/f-google.jpg" alt="google"></a>
-                                <a href="#"><img src="user/assets/img/footer/f-app.jpg" alt="app"></a>
+                                <a href="#"><img src="{{asset('user/assets/img/footer/f-google.jpg')}}" alt="google"></a>
+                                <a href="#"><img src="{{asset('user/assets/img/footer/f-app.jpg')}}" alt="app"></a>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-5 col-md-7 col-sm-12">
                         <div class="footer-copyright__brand">
-                            <img src="user/assets/img/footer/f-brand-icon-01.png" alt="footer-brand">
+                            <img src="{{asset('user/assets/img/footer/f-brand-icon-01.png')}}" alt="footer-brand">
                         </div>
                     </div>
                 </div>
