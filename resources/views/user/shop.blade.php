@@ -1,7 +1,7 @@
 @extends('user.layout.index')
 @section('content')
 <!-- breadcrumb-area -->
-<section class="breadcrumb__area pt-60 pb-60 tp-breadcrumb__bg" data-background="assets/img/banner/breadcrumb-01.jpg">
+<section class="breadcrumb__area pt-60 pb-60 tp-breadcrumb__bg" data-background="user/assets/img/banner/breadcrumb-01.jpg">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-7 col-lg-12 col-md-12 col-12">
@@ -65,9 +65,9 @@
                                 <div class="tpproduct__thumb">
                                     <div class="tpproduct__thumbitem p-relative">
                                         <a href="shop-details.html">
-                                            <img src="assets/img/product/home-two/product-21.jpg" alt="product-thumb">
+                                            <img src="user/assets/img/product/home-two/product-21.jpg" alt="product-thumb">
                                             <img class="thumbitem-secondary"
-                                                src="assets/img/product/home-two/product-22.jpg" alt="">
+                                                src="user/assets/img/product/home-two/product-22.jpg" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -119,9 +119,9 @@
                                 <div class="tpproduct__thumb">
                                     <div class="tpproduct__thumbitem p-relative">
                                         <a href="shop-details-2.html">
-                                            <img src="assets/img/product/home-two/product-23.jpg" alt="product-thumb">
+                                            <img src="user/assets/img/product/home-two/product-23.jpg" alt="product-thumb">
                                             <img class="thumbitem-secondary"
-                                                src="assets/img/product/home-two/product-24.jpg" alt="">
+                                                src="user/assets/img/product/home-two/product-24.jpg" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -173,9 +173,9 @@
                                 <div class="tpproduct__thumb">
                                     <div class="tpproduct__thumbitem p-relative">
                                         <a href="shop-details-2.html">
-                                            <img src="assets/img/product/home-two/product-25.jpg" alt="product-thumb">
+                                            <img src="user/assets/img/product/home-two/product-25.jpg" alt="product-thumb">
                                             <img class="thumbitem-secondary"
-                                                src="assets/img/product/home-two/product-26.jpg" alt="">
+                                                src="user/assets/img/product/home-two/product-26.jpg" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -227,9 +227,9 @@
                                 <div class="tpproduct__thumb">
                                     <div class="tpproduct__thumbitem p-relative">
                                         <a href="#">
-                                            <img src="assets/img/product/home-two/product-27.jpg" alt="product-thumb">
+                                            <img src="user/assets/img/product/home-two/product-27.jpg" alt="product-thumb">
                                             <img class="thumbitem-secondary"
-                                                src="assets/img/product/home-two/product-28.jpg" alt="">
+                                                src="user/assets/img/product/home-two/product-28.jpg" alt="">
                                         </a>
                                     </div>
                                 </div>
@@ -286,10 +286,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-21.jpg"
+                                                <img src="user/assets/img/product/home-two/product-21.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-22.jpg"
+                                                    src="user/assets/img/product/home-two/product-22.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -367,10 +367,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-31.jpg"
+                                                <img src="user/assets/img/product/home-two/product-31.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-32.jpg"
+                                                    src="user/assets/img/product/home-two/product-32.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -448,10 +448,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-27.jpg"
+                                                <img src="user/assets/img/product/home-two/product-27.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-28.jpg"
+                                                    src="user/assets/img/product/home-two/product-28.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -529,10 +529,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-25.jpg"
+                                                <img src="user/assets/img/product/home-two/product-25.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-26.jpg"
+                                                    src="user/assets/img/product/home-two/product-26.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -610,10 +610,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-29.jpg"
+                                                <img src="user/assets/img/product/home-two/product-29.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-30.jpg"
+                                                    src="user/assets/img/product/home-two/product-30.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -691,10 +691,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-33.jpg"
+                                                <img src="user/assets/img/product/home-two/product-33.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-34.jpg"
+                                                    src="user/assets/img/product/home-two/product-34.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -772,10 +772,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-23.jpg"
+                                                <img src="user/assets/img/product/home-two/product-23.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-24.jpg"
+                                                    src="user/assets/img/product/home-two/product-24.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -853,10 +853,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-35.jpg"
+                                                <img src="user/assets/img/product/home-two/product-35.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-36.jpg"
+                                                    src="user/assets/img/product/home-two/product-36.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -934,10 +934,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-37.jpg"
+                                                <img src="user/assets/img/product/home-two/product-37.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-38.jpg"
+                                                    src="user/assets/img/product/home-two/product-38.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">
@@ -1015,10 +1015,10 @@
                                     <div class="tpproduct__thumb">
                                         <div class="tpproduct__thumbitem p-relative">
                                             <a href="shop-details-2.html">
-                                                <img src="assets/img/product/home-two/product-39.jpg"
+                                                <img src="user/assets/img/product/home-two/product-39.jpg"
                                                     alt="product-thumb">
                                                 <img class="thumbitem-secondary"
-                                                    src="assets/img/product/home-two/product-40.jpg"
+                                                    src="user/assets/img/product/home-two/product-40.jpg"
                                                     alt="product-thumb">
                                             </a>
                                             <div class="tpproduct__thumb-bg">

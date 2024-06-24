@@ -1,7 +1,7 @@
 @extends('user.layout.index')
 @section('content')
 <!-- breadcrumb-area -->
-<section class="breadcrumb__area pt-60 pb-60 tp-breadcrumb__bg" data-background="assets/img/banner/breadcrumb-01.jpg">
+<section class="breadcrumb__area pt-60 pb-60 tp-breadcrumb__bg" data-background="user/assets/img/banner/breadcrumb-01.jpg">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-7 col-lg-12 col-md-12 col-12">
@@ -56,7 +56,7 @@
                         <h4 class="tpcontact__title">Make Custom Request</h4>
                         <p>Must-have pieces selected every month want style Ideas and Treats?</p>
                     </div>
-                    <form action="assets/mail.php" id="contact-form" method="POST">
+                    <form action="user/assets/mail.php" id="contact-form" method="POST">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="tpcontact__input mb-20">

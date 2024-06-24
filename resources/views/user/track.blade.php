@@ -1,7 +1,7 @@
 @extends('user.layout.index')
 @section('content')
 <!-- breadcrumb-area -->
-<section class="breadcrumb__area pt-60 pb-60 tp-breadcrumb__bg" data-background="assets/img/banner/breadcrumb-01.jpg">
+<section class="breadcrumb__area pt-60 pb-60 tp-breadcrumb__bg" data-background="user/assets/img/banner/breadcrumb-01.jpg">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-7 col-lg-12 col-md-12 col-12">
@@ -25,12 +25,12 @@
             <div class="col-md-7">
                 <div class="tptrack__product">
                     <div class="tptrack__thumb">
-                        <img src="assets/img/banner/track-bg.jpg" alt="">
+                        <img src="user/assets/img/banner/track-bg.jpg" alt="">
                     </div>
                     <div class="tptrack__content grey-bg-3">
                         <div class="tptrack__item d-flex mb-20">
                             <div class="tptrack__item-icon">
-                                <img src="assets/img/icon/track-1.png" alt="">
+                                <img src="user/assets/img/icon/track-1.png" alt="">
                             </div>
                             <div class="tptrack__item-content">
                                 <h4 class="tptrack__item-title">Track Your Order</h4>

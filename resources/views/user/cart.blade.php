@@ -1,7 +1,7 @@
 @extends('user.layout.index')
 @section('content')
 <!-- breadcrumb-area -->
-<section class="breadcrumb__area pt-60 pb-60 tp-breadcrumb__bg" data-background="assets/img/banner/breadcrumb-01.jpg">
+<section class="breadcrumb__area pt-60 pb-60 tp-breadcrumb__bg" data-background="user/assets/img/banner/breadcrumb-01.jpg">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-7 col-lg-12 col-md-12 col-12">
@@ -40,7 +40,7 @@
                                 <tr>
                                     <td class="product-thumbnail">
                                         <a href="shop-details.html"><img
-                                                src="assets/img/product/home-three/product-60.jpg" alt="">
+                                                src="user/assets/img/product/home-three/product-60.jpg" alt="">
                                         </a>
                                     </td>
                                     <td class="product-name">
@@ -63,7 +63,7 @@
                                 </tr>
                                 <tr>
                                     <td class="product-thumbnail">
-                                        <a href="shop-details.html"><img src="assets/img/product/home-one/product-8.jpg"
+                                        <a href="shop-details.html"><img src="user/assets/img/product/home-one/product-8.jpg"
                                                 alt="">
                                         </a>
                                     </td>
