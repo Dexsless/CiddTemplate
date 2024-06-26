@@ -16,24 +16,19 @@
     </div>
     <div class="ms-auto">
         <div class="btn-group">
-            <button type="button" class="btn btn-primary">Settings</button>
-            <button type="button" class="btn btn-primary split-bg-primary dropdown-toggle dropdown-toggle-split"
-                data-bs-toggle="dropdown"> <span class="visually-hidden">Toggle Dropdown</span>
-            </button>
-            <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-end"> <a class="dropdown-item"
-                    href="javascript:;">Action</a>
-                <a class="dropdown-item" href="javascript:;">Another action</a>
-                <a class="dropdown-item" href="javascript:;">Something else here</a>
-                <div class="dropdown-divider"></div> <a class="dropdown-item" href="javascript:;">Separated link</a>
-            </div>
+            <a href="{{route('users.create')}}" class="btn btn-sm btn-primary" style="float: right">Tambah</a>
         </div>
     </div>
 </div>
 <!--end breadcrumb-->
 
-<h6 class="mb-0 text-uppercase">DataTable Example</h6>
+
+<h6 class="mb-0 text-uppercase">Data User</h6>
 <hr>
 <div class="card">
+    {{-- <div class="card-header">
+
+    </div> --}}
     <div class="card-body">
         <div class="table-responsive">
             <table id="example" class="table table-striped table-bordered" style="width:100%">
@@ -51,18 +46,35 @@
                     $i = 1
                     @endphp
                     @foreach ($user as $item)
-                    <td>{{$i++}}</td>
-                    <td>{{$item->name}}</td>
-                    <td>{{$item->email}}</td>
-                    <td>{{$item->IsAdmin == 1 ? 'Admin' : 'User'}}</td>
-                    <td>
-                        <form action="{{route('users.destroy', $item->id)}}">
-                            @csrf
-                            @method('DELETE')
-                            <a href="{{route('users.edit', $item->id)}}" class="btn btn-warning">Edit</a> |
-                            <button class="btn btn-danger" type="submit">Delete</button>
-                        </form>
-                    </td>
+                    <tr>
+                        <td>{{$i++}}</td>
+                        <td>{{$item->name}}</td>
+                        <td>{{$item->email}}</td>
+                        <td>
+                            @if ($item->isAdmin)
+                            Admin
+                            @else
+                            User
+                            @endif
+                        </td>
+                        <td>
+                            <form action="{{route('users.destroy',$item->id)}}" method="post">
+                                @method('DELETE')
+                                @csrf
+                                <a href="{{route('users.edit',$item->id)}}" class="btn btn-sm btn-success">
+                                    Edit
+                                </a>
+                                {{-- <a href="{{route('users.show',$item->id)}}" class="btn btn-sm btn-warning">
+                                    Show
+                                </a> --}}
+
+                                <button class="btn btn-sm btn-danger" type="submit"
+                                    onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">
+                                    Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
                     @endforeach
                 </tbody>
             </table>
