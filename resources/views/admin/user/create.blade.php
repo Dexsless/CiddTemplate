@@ -62,8 +62,7 @@
                         </div>
                         <div class="mb-2">
                             <label for="">Role</label>
-                            <select name="isAdmin"
-                                class="form-control select @error('isAdmin') is-invalid @enderror">
+                            <select name="isAdmin" class="form-control select @error('isAdmin') is-invalid @enderror">
                                 <option value="">Pilih Role</option>
                                 <option value=0>User</option>
                                 <option value=1>Admin</option>

@@ -22,9 +22,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', IsAdmin::class]], fu
     Route::get('/', function () {
         return view('admin.index');
     });
+    route::resource('users', UsersController::class);
 
 });
-route::resource('users', UsersController::class);
 
 route::get('/', [FrontController::class, 'index']);
 route::get('/contact', [FrontController::class, 'contact']);

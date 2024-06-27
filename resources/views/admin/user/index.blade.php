@@ -61,17 +61,20 @@
                             <form action="{{route('users.destroy',$item->id)}}" method="post">
                                 @method('DELETE')
                                 @csrf
+                                @if ($i == 2)
+                                <button class="btn btn-sm btn-danger" type="submit" disabled
+                                data-confirm-delete="true">
+                                Can't Delete
+                                </button>
+                                @else
                                 <a href="{{route('users.edit',$item->id)}}" class="btn btn-sm btn-success">
                                     Edit
                                 </a>
-                                {{-- <a href="{{route('users.show',$item->id)}}" class="btn btn-sm btn-warning">
-                                    Show
-                                </a> --}}
-
                                 <button class="btn btn-sm btn-danger" type="submit"
-                                    onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">
+                                    data-confirm-delete="true">
                                     Delete
                                 </button>
+                                @endif
                             </form>
                         </td>
                     </tr>

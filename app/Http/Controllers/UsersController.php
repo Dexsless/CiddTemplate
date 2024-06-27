@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class UsersController extends Controller
 {
@@ -13,6 +14,9 @@ class UsersController extends Controller
     public function index()
     {
         $user = User::all();
+        $title = 'Delete User!';
+        $text = "Are you sure you want to delete?";
+        confirmDelete($title, $text);
         return view('admin.user.index', compact('user'));
     }
 
@@ -32,7 +36,7 @@ class UsersController extends Controller
     {
         $validated = $request->validate([
             'name' => 'required',
-            'email' => 'required',
+            'email' => 'required|unique:users',
             'password' => 'required',
             'isAdmin' => 'required'
         ]);
@@ -42,9 +46,10 @@ class UsersController extends Controller
         $user->password = $request->password;
         $user->isAdmin = $request->isAdmin;
         $user->save();
+        Alert::success('Success', 'Data Berhasil Ditambahkan')->autoclose(1500);
 
-        return redirect()->route('users.index')
-        ->with('success', 'Data Berhasil Ditambahkan');
+        return redirect()->route('users.index');
+        // ->with('success', 'Data Berhasil Ditambahkan');
     }
 
     /**
@@ -81,9 +86,10 @@ class UsersController extends Controller
         $user->password = $request->password;
         $user->isAdmin = $request->isAdmin;
         $user->save();
+        Alert::success('Success', 'Data Berhasil Diedit')->autoclose(1500);
 
-        return redirect()->route('users.index')
-        ->with('success', 'Data Berhasil Diedit');
+        return redirect()->route('users.index');
+        // ->with('success', 'Data Berhasil Diedit');
     }
 
     /**
@@ -93,8 +99,9 @@ class UsersController extends Controller
     {
         $user = User::findOrFail($id);
         $user->delete();
+        Alert::success('Success', 'Data Berhasil Dihapus')->autoclose(1500);
 
-        return redirect()->route('users.index')
-        ->with('success', 'data berhasil di hapus');
+        return redirect()->route('users.index');
+        // ->with('success', 'data berhasil di hapus');
     }
 }
